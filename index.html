@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<!--
+    Demo of all our favorite Bulma aspects.
+
+    If you're reading this, and you're learning Bulma,
+    then you probably want to first read the individual
+    files in this same repository directory that are about
+    one topic each, such as a navbar, panel, tab, footer, etc.
+
+    This HTML demo also annotates typical web page features,
+    such as meta tags, that you may want to use on your own pages.
+-->
+<html>
+  <head>
+
+    <!-- Use UTF-8 character encoding. -->
+    <meta charset="utf-8">
+
+    <!-- Bulma needs a responsive viewport meta tag. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Use any title you want. -->
+    <title>Demo of Bulma CSS</title>
+
+    <!-- Use Bulma by fetching the file via CDN; if you prefer, you can download Bulma. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    
+    <!-- 
+      ## Navigation JavaScript ##
+      
+      The Bulma package does not come with any JavaScript.
+      Here is a demo implementation example, which toggles the navigation bar
+      class `is-active` on both the navbar-burger and the targeted navbar-menu. 
+    --> 
+    <script src="navbar.js"></script>
+
+    <!-- 
+      ## Font Awesome ##
+
+      We want to use Font Awesome icons with Bulma, so we load them here.
+      This is optional. Feel free to skip using icons, or to use your own.
+    -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+
+    <!--
+      ## X-UA-Compatible ##
+
+      Microsoft Internet Explorer compatibility tag. Microsoft writes:
+      If you are using the X-UA-Compatible META tag you want to place 
+      it as close to the top of the page's HEAD as possible. 
+      
+      Internet Explorer begins interpreting markup using the latest version. 
+      When Internet Explorer encounters the X-UA-Compatible META tag it 
+      starts over using the designated version's engine. This is a performance 
+      hit because the browser must stop and restart analyzing the content.
+
+      IE11 has made changes to these modes. Microsoft Edge, the browser that 
+      replaced IE11, only honors the tag in certain circumstances. 
+      
+      If you need to support IE9 or IE8, then we recommend using the tag. 
+      If you only support the latest browsers (IE11 and/or Edge) then 
+      consider dropping this tag altogether. If you use Twitter Bootstrap 
+      and need to eliminate validation warnings, this tag must appear in 
+      its specified order.
+    --> 
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!--
+      ## Theme color ##
+
+      Starting in version 39 of Chrome for Android on Lollipop, you'll now 
+      be able to use the theme-color meta tag to set the toolbar color.
+    -->
+    <meta name='theme-color' content='#aa1e1e'>
+
+    <!--
+      ## Application name ##
+
+      According to HTML5 LC, a meta tag with name=application-name shall have 
+      value (in the content attribute) that is “short free-form string giving 
+      the name of the Web application that the page represents”; if the page 
+      is not an application, such a tag must not be used. Browsers “may use 
+      the application name in UI in preference to the page's title, since the
+      title might include status messages and the like relevant to the status
+      of the page at a particular moment in time instead of just being the 
+      name of the application.
+    -->
+    <meta name="application-name" content="Demo App Name"/>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <!-- Bulma -->
+    <link rel="stylesheet" href="/cdn/bulma-extensions/bulma-tooltip/dist/css/bulma-tooltip.min.css">
+
+  </head>
+  <body>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Salut,
+        </h1>
+        <p class="subtitle">
+          Nu m-am putut abtine.
+        </p>
+      </div>
+    </section>
+
+  
+  </body>
+</html>
